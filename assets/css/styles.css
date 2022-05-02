@@ -1,6 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .navbar{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: #fff !important;
     font-size: 20px;
 }
 .navbar a img:hover{
@@ -16,12 +27,18 @@
 .caracteristicas li{
     list-style: none;
 }
-.container{
-    height: 90vh;
+
+
+.nuestrosProductos{
+    background-color: aquamarine;
 }
-footer{
-    background-color: #636160;
-    color: white;
-    
+.container{
+    max-width: 900px;
 }
 
+
+footer{
+    background-color: #636160;
+    color: white; 
+    
+}

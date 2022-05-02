@@ -5,79 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <title>Tu Camiseta Deportiva</title>
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 
-<body class="contenedor">
-    <header class="encabezado">
-        <div class="LOGO">
-            <a href="../index.html">
-                <img src="../assets/img/LOGOCANVA2.png" alt="Logo" width="160px">
-            </a>
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contactos.html">Contactos</a></li>
-                <li> <a href="./servicios.html">Servicios</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="Destacados">
-            <div class="container">
-                <h2>NUESTROS PRODUCTOS</h2>
-                <div class="Productos">
-                    <div class="carta">
-                        <h3>Camisetas Retro</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe
-                            qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia
-                            ducimus veritatis repellendus?</p>
-                        <button>Ver más</button>
-                    </div>
-                    <div class="carta">
-                        <h3>Camisetas NBA</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe
-                            qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia
-                            ducimus veritatis repellendus?</p>
-                        <button>Ver más</button>
-                    </div>
-                    <div class="carta">
-                        <h3>GENERALES</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe
-                            qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia
-                            ducimus veritatis repellendus?</p>
-                        <button>Ver más</button>
-                    </div>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="../assets/img/LOGOCANVA2.png" alt=""
+                        width="170px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactos.html">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./productos.html">Productos</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <h1>Indumentaria Oficial</h1>
-        <address>
-            Social Media
-            <br>
-            @tucamiseta-rcia
-        </address>
-        <p>Seguinos en nuestras Redes</p>
-        <div class="redes">
-            <a href="#"><img src="../assets/img/instagram_123258.png" alt="Insta"></a>
-            <a href="#"><img src="../assets/img/facebook_108044.png" alt="Facebook"></a>
-            <a href="#"><img src="../assets/img/whatsapp_108042.png" alt="Whatsapp"></a>
+        </nav>
+    </header>
+    <!--MAIN-->
+    <main class="container">
+        <div class="row p-4">
+            <div class="col-md-6 text-center ">
+                <img class="rounded-circle" src="../assets/img/fans.jpg" alt="player" width="300px">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h2 class="fw-bold">ALENTÁ A TU EQUIPO FAVORITO</h2>
+                <button class="btn btn-primary">+Info</button>
+            </div>
         </div>
-        <p>
-            2022©Derechos de autor reservados.
-        </p>
+
+        <div class="row flex-row-reverse p-4">
+            <div class="col-md-6 text-center ">
+                <img class="rounded-circle" src="../assets/img/football-retro.jpg" alt="player" width="300px">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h2 class="fw-bold">RETRO</h2>
+                <button class="btn btn-primary">+Info</button>
+            </div>
+        </div>
+
+        <div class="row p-4">
+            <div class="col-md-6 text-center">
+                <img class="rounded-circle" src="../assets/img/pic3.jpg" alt="player" width="300px">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h2 class="fw-bold">LLEVÁ LA NBA VON VOS</h2>
+                <button class="btn btn-primary">+Info.</button>
+            </div>
+        </div>
+
+
+  <div class="row flex-row-reverse p-4">
+            <div class="col-md-6 text-center ">
+                <img class="rounded-circle" src="../assets/img/argentina-flag.jpg"  alt="player" width="300px">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h2 class="fw-bold">REPRESENTÁ TU NACIÓN</h2>
+                <button class="btn btn-primary">+Info</button>
+            </div>
+        </div>
+    </main>
+    <!--FOOTER-->
+    <footer class="text-center p-3 mt-4 row ">
+        <div class="col-md-6 justify-content-center">
+            <h1 class="pb-3">Indumentaria Oficial</h1>
+            <address>
+                Social Media
+                <br>
+                @tucamiseta-rcia
+            </address>
+        </div>
+        <div class="col-md-6 ">
+            <p>Seguinos en nuestras Redes</p>
+            <div class="redes pb-3">
+                <a href="#"><img src="../assets/img/instagram_108043.png" alt="Insta"></a>
+                <a href="#"><img src="../assets/img/facebook_108044.png" alt="Facebook"></a>
+                <a href="#"><img src="../assets/img/whatsapp_108042.png" alt="Whatsapp"></a>
+            </div>
+            <p>
+                2022©Copyrigth ArandaWD.
+            </p>
+        </div>
     </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
